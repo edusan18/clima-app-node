@@ -1,0 +1,45 @@
+1) Nos posicionamos en la carpeta
+2) Instalamos node en la carpeta
+    npm init
+3) Instalamos yargs
+    npm i --save yargs
+4)
+
+
+5)
+Google Maps a muchos les está pidiendo datos de facturación para usar el API, cosa que están implementando, pero si no quieren ingresar nada, pueden usar para desarrollo y seguir el curso, cualquiera de estas API Keys
+
+AIzaSyA0oxlBDviRVbEIn4T-fHwu7fi2MmDmSWo
+
+
+// AIzaSyDyJPPlnIMOLp20Ef1LlTong8rYdTnaTXM
+// AIzaSyDzbQ_553v-n8QNs2aafN9QaZbByTyM7gQ
+// AIzaSyA5mjCwx1TRLuBAjwQw84WE6h5ErSe7Uj8
+// AIzaSyCroCERuudf2z02rCrVa6DTkeeneQuq8TA
+// AIzaSyBkDYSVRVtQ6P2mf2Xrq0VBjps8GEcWsLU
+// AIzaSyAu2rb0mobiznVJnJd6bVb5Bn2WsuXP2QI
+// AIzaSyAZ7zantyAHnuNFtheMlJY1VvkRBEjvw9Y
+// AIzaSyDSPDpkFznGgzzBSsYvTq_sj0T0QCHRgwM
+// AIzaSyD4YFaT5DvwhhhqMpDP2pBInoG8BTzA9JY
+// AIzaSyAbPC1F9pWeD70Ny8PHcjguPffSLhT-YF8
+
+6) Usar postman para hacer el siguiente request
+ https://maps.googleapis.com/maps/api/geocode/json?address=Lima Peru&key=AIzaSyA0oxlBDviRVbEIn4T-fHwu7fi2MmDmSWo
+
+
+7) Para llamar a un api como el anterior, podemos usar el "npm request" o el "npm axios", usaremos el npm axios
+
+8) Instalamos usando el siguiente comando:
+npm install axios --save
+
+9) Probamos el archivo 04 con el siguiente comando
+node 04.app -d "Madrid España"
+
+10) Subimos el proyecto a Github
+- Ubicarnos en la ruta
+- comando: git init
+- crear el archivo gitignore en el proyecto y poner sobre el archivos o carpetas que no deben subirse al proyecto
+- comando: git status, nos saldra en rojo
+- comando: git add . , subira los archivos archivos a un repositorio local
+- comando: git status, mostrará los archivos que están listos para subirse
+
